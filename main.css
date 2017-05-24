@@ -2,3 +2,112 @@ body
 {
 	background-color: yellow;
 }
+#playground 
+{
+	border: 1px solid black;
+	color: darkblue;
+}
+
+.child 
+{
+	background-color: gray;
+}
+
+li
+{
+	border-bottom: 3px solid tomato;
+}
+
+#playground > h1
+{
+	color: purple;
+}
+.child ~ p
+{
+	background-color: white;
+}
+#playground 
+{
+	display: none;
+}
+h1
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 
+{
+	color: purple;
+}
+
+#accomplishments > h2
+{
+	color: slategray;
+	text-align: center;
+}
+
+.accomplishment 
+{
+	width: 40%;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.accomplishment img
+{
+	width: 10%;
+}
+.accomplishment a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.accomplishment:nth-of-type(1) 
+{
+	background-color: skyblue;
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+.accomplishment:nth-of-type(2) 
+{
+	background-color: pink;
+	border: 1px solid black;
+}
+.accomplishments > .accomplishment
+{
+
+}
+#images 
+{
+	display: flex;
+	justify-content: space-around;
+	margin: 13px;
+	height: 300px;
+}
+
+#images div
+{
+	width: 30%;
+	margin: 1%;
+	height: 100%;
+}
+
+#images img
+{
+	width: 100%; /*occupies 100% of its parent element*/
+	height: 100%;
+}
+
+#images div:nth-of-type(2)
+{
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+#images div:nth-of-type(3)
+{
+	overflow: hidden;
+	border-radius: 10px;
+}
